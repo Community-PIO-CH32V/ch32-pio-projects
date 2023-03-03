@@ -1,0 +1,77 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "c:/Users/Max/Desktop/ch32_dev/platform-ch32v/examples/hello-world-rt-thread/include",
+                "c:/Users/Max/Desktop/ch32_dev/platform-ch32v/examples/hello-world-rt-thread/src",
+                "C:/Users/Max/.platformio/packages/framework-wch-noneos-sdk/Core/ch32v10x",
+                "C:/Users/Max/.platformio/packages/framework-wch-noneos-sdk/Peripheral/ch32v10x/inc",
+                "C:/Users/Max/.platformio/packages/framework-wch-noneos-sdk/Peripheral/ch32v10x/src",
+                "C:/Users/Max/.platformio/packages/framework-wch-noneos-sdk/Startup",
+                "C:/Users/Max/.platformio/packages/framework-wch-noneos-sdk/System/ch32v10x",
+                "C:/Users/Max/.platformio/packages/framework-wch-noneos-sdk/Debug/ch32v10x",
+                "C:/Users/Max/.platformio/packages/framework-wch-rtthread/rtthread_ch32v10x/drivers",
+                "C:/Users/Max/.platformio/packages/framework-wch-rtthread/rtthread_ch32v10x/include",
+                "C:/Users/Max/.platformio/packages/framework-wch-rtthread/rtthread_ch32v10x/include/libc",
+                "C:/Users/Max/.platformio/packages/framework-wch-rtthread/rtthread_ch32v10x/libcpu/risc-v",
+                "C:/Users/Max/.platformio/packages/framework-wch-rtthread/rtthread_ch32v10x/libcpu/risc-v/common",
+                "C:/Users/Max/.platformio/packages/framework-wch-rtthread/rtthread_ch32v10x/src",
+                "C:/Users/Max/.platformio/packages/framework-wch-rtthread/rtthread_ch32v10x",
+                "C:/Users/Max/.platformio/packages/framework-wch-rtthread/rtthread_ch32v10x/components/drivers/include",
+                "C:/Users/Max/.platformio/packages/framework-wch-rtthread/rtthread_ch32v10x/components/drivers/misc",
+                "C:/Users/Max/.platformio/packages/framework-wch-rtthread/rtthread_ch32v10x/components/drivers/serial",
+                "C:/Users/Max/.platformio/packages/framework-wch-rtthread/rtthread_ch32v10x/components/finsh",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "c:/Users/Max/Desktop/ch32_dev/platform-ch32v/examples/hello-world-rt-thread/include",
+                    "c:/Users/Max/Desktop/ch32_dev/platform-ch32v/examples/hello-world-rt-thread/src",
+                    "C:/Users/Max/.platformio/packages/framework-wch-noneos-sdk/Core/ch32v10x",
+                    "C:/Users/Max/.platformio/packages/framework-wch-noneos-sdk/Peripheral/ch32v10x/inc",
+                    "C:/Users/Max/.platformio/packages/framework-wch-noneos-sdk/Peripheral/ch32v10x/src",
+                    "C:/Users/Max/.platformio/packages/framework-wch-noneos-sdk/Startup",
+                    "C:/Users/Max/.platformio/packages/framework-wch-noneos-sdk/System/ch32v10x",
+                    "C:/Users/Max/.platformio/packages/framework-wch-noneos-sdk/Debug/ch32v10x",
+                    "C:/Users/Max/.platformio/packages/framework-wch-rtthread/rtthread_ch32v10x/drivers",
+                    "C:/Users/Max/.platformio/packages/framework-wch-rtthread/rtthread_ch32v10x/include",
+                    "C:/Users/Max/.platformio/packages/framework-wch-rtthread/rtthread_ch32v10x/include/libc",
+                    "C:/Users/Max/.platformio/packages/framework-wch-rtthread/rtthread_ch32v10x/libcpu/risc-v",
+                    "C:/Users/Max/.platformio/packages/framework-wch-rtthread/rtthread_ch32v10x/libcpu/risc-v/common",
+                    "C:/Users/Max/.platformio/packages/framework-wch-rtthread/rtthread_ch32v10x/src",
+                    "C:/Users/Max/.platformio/packages/framework-wch-rtthread/rtthread_ch32v10x",
+                    "C:/Users/Max/.platformio/packages/framework-wch-rtthread/rtthread_ch32v10x/components/drivers/include",
+                    "C:/Users/Max/.platformio/packages/framework-wch-rtthread/rtthread_ch32v10x/components/drivers/misc",
+                    "C:/Users/Max/.platformio/packages/framework-wch-rtthread/rtthread_ch32v10x/components/drivers/serial",
+                    "C:/Users/Max/.platformio/packages/framework-wch-rtthread/rtthread_ch32v10x/components/finsh",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60107",
+                "CH32V103C8",
+                "CH32V10X",
+                "CH32V103",
+                "__PIO_BUILD_RT_THREAD__",
+                ""
+            ],
+            "cStandard": "c99",
+            "compilerPath": "C:/Users/Max/.platformio/packages/toolchain-riscv/bin/riscv-none-embed-gcc.exe",
+            "compilerArgs": [
+                "-msmall-data-limit=8",
+                "-msave-restore",
+                "-march=rv32imac",
+                "-mabi=ilp32",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

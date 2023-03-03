@@ -1,0 +1,47 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "c:/Users/Max/Desktop/ch32_dev/platform-ch32v/examples/blinky-freertos/.pio/build/genericCH32V103C8T6/firmware.elf",
+            "projectEnvName": "genericCH32V103C8T6",
+            "toolchainBinDir": "C:/Users/Max/.platformio/packages/toolchain-riscv/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/Max/Desktop/ch32_dev/platform-ch32v/misc/svd/CH32V103xx.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "c:/Users/Max/Desktop/ch32_dev/platform-ch32v/examples/blinky-freertos/.pio/build/genericCH32V103C8T6/firmware.elf",
+            "projectEnvName": "genericCH32V103C8T6",
+            "toolchainBinDir": "C:/Users/Max/.platformio/packages/toolchain-riscv/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/Max/Desktop/ch32_dev/platform-ch32v/misc/svd/CH32V103xx.svd"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (without uploading)",
+            "executable": "c:/Users/Max/Desktop/ch32_dev/platform-ch32v/examples/blinky-freertos/.pio/build/genericCH32V103C8T6/firmware.elf",
+            "projectEnvName": "genericCH32V103C8T6",
+            "toolchainBinDir": "C:/Users/Max/.platformio/packages/toolchain-riscv/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/Max/Desktop/ch32_dev/platform-ch32v/misc/svd/CH32V103xx.svd",
+            "loadMode": "manual"
+        }
+    ]
+}
