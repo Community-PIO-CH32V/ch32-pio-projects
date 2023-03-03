@@ -1,4 +1,4 @@
-# GD32 PlatformIO Projects
+# CH32 PlatformIO Projects
 
 ![example workflow](https://github.com/Community-PIO-CH32V/ch32-pio-projects/actions/workflows/examples/badge.svg)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/Community-PIO-CH32V/ch32-pio-projects/)](https://GitHub.com/Community-PIO-CH32V/ch32-pio-projects/) [![GitHub issues](https://img.shields.io/github/issues/Community-PIO-CH32V/ch32-pio-projects.svg)](https://GitHub.com/Community-PIO-CH32V/ch32-pio-projects)
