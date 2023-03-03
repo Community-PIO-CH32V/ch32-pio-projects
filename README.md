@@ -69,7 +69,7 @@ git clone https://github.com/Community-PIO-CH32V/ch32-pio-projects
 When using VSCode, open the PIO Home screen, e.g. via [the toolbar](https://docs.platformio.org/en/latest/integration/ide/vscode.html#platformio-toolbar). Use the "Open Project" open to navigate to one of the projects in the repository that you just cloned, e.g., `blinky-none-os`.
 
 ![open project](docs/pio_home_open_project.png)
-![open folder](docs/pio_home_folder.png)
+![open folder](docs/open_project.png)
 
 After opening the project, trust the VSCode workspace in the popup dialog. Your workspace should now contain the new project.
 
