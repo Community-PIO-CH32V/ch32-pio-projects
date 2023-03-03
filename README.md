@@ -7,7 +7,7 @@
 
 This repository contains a collection of example projects to be used with the newly developed [CH32V PlatformIO integration](https://github.com/Community-PIO-CH32V/platform-ch32v). 
 
-The examples range from using the [NoneOS SDK](https://github.com/Community-PIO-CH32V/framework-wch-noneos-sdk) over to [FreeRTOS](https://github.com/Community-PIO-CH32V/framework-wch-freertos) and [TencentOS] projects and more.
+The examples range from using the [NoneOS SDK](https://github.com/Community-PIO-CH32V/framework-wch-noneos-sdk) over to [FreeRTOS](https://github.com/Community-PIO-CH32V/framework-wch-freertos) and [TencentOS](https://github.com/Community-PIO-CH32V/framework-wch-tencentos) projects and more.
 
 ## General Usage Notes
 
