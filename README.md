@@ -157,7 +157,9 @@ Building .pio\build\ch32v307_evt\firmware.bin
 
 ## Uploading
 
-Note that the default upload method and available upload method is listed in the board manifest, e.g. for the [GD32F303CC board](https://github.com/CommunityGD32Cores/platform-gd32/blob/bbcdaa192cde7609d3da77e389eacd4f3d6c335e/boards/genericGD32F303CC.json#L43-L51), `stlink` is the default, attempting to upload via a ST-Link probe connected to the chip via SWD, using OpenOCD as tool. JLink, CMSIS-DAP, BMP, serial and USB-DFU (experimental) upload methods are available as well. To change the upload method, change [`upload_protocol`](https://docs.platformio.org/en/latest/projectconf/section_env_upload.html#upload-protocol) accordingly. SWD based upload methods can also be used as [`debug_tool`](https://docs.platformio.org/en/latest/projectconf/section_env_debug.html#debug-tool) for live-debugging. 
+Note that the default upload method and available upload method is listed in the board manifest, e.g. for the [CH32V307EVT board](https://github.com/Community-PIO-CH32V/platform-ch32v/blob/develop/boards/ch32v307_evt.json), `wch-link` is the default, attempting to upload via a WCH-Link(E) probe connected to the chip via SWD (or the 1-pin interface used on CH32V003), using OpenOCD as tool. Uploading via the USB bootloader for the chips that have it (all but CH32V003) is also supported.
+
+To change the upload method, change [`upload_protocol`](https://docs.platformio.org/en/latest/projectconf/section_env_upload.html#upload-protocol) accordingly. SWD based upload methods can also be used as [`debug_tool`](https://docs.platformio.org/en/latest/projectconf/section_env_debug.html#debug-tool) for live-debugging. For USB bootloader upload, use `upload_protocol = isp`. 
 
 For VSCode users, use the project task "Upload".
 
